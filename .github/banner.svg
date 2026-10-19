@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 320" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="900" y2="320">
+      <stop offset="0%" stop-color="#0a1428"/>
+      <stop offset="100%" stop-color="#152340"/>
+    </linearGradient>
+    <linearGradient id="blueGold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1e3a8a"/>
+      <stop offset="100%" stop-color="#d4af37"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="320" rx="12" fill="url(#bg)"/>
+
+  <!-- Left column: Title + info -->
+
+  <!-- Blue accent bar -->
+  <rect x="45" y="35" width="4" height="70" rx="2" fill="#1e3a8a"/>
+
+  <!-- Main title -->
+  <text x="62" y="68" font-family="monospace, 'Courier New'" font-size="38" font-weight="bold" fill="#3b82f6" letter-spacing="2">AI RECRUITER</text>
+  <text x="62" y="100" font-family="monospace, 'Courier New'" font-size="22" fill="#d4af37" letter-spacing="4">TEAM</text>
+
+  <!-- Divider -->
+  <rect x="62" y="115" width="220" height="2" rx="1" fill="url(#blueGold)" opacity="0.6"/>
+
+  <!-- Tagline -->
+  <text x="62" y="140" font-family="monospace, 'Courier New'" font-size="12" fill="#94a3b8">AI-Powered Recruiting &amp; Hiring Engine</text>
+  <text x="62" y="158" font-family="monospace, 'Courier New'" font-size="12" fill="#94a3b8">for Claude Code</text>
+
+  <!-- Stats row -->
+  <g font-family="monospace, 'Courier New'" font-size="11" font-weight="bold">
+    <rect x="62" y="175" width="80" height="24" rx="4" fill="#0a1428" stroke="#3b82f6" stroke-width="1"/>
+    <text x="102" y="191" fill="#3b82f6" text-anchor="middle">14 Skills</text>
+
+    <rect x="152" y="175" width="80" height="24" rx="4" fill="#0a1428" stroke="#3b82f6" stroke-width="1"/>
+    <text x="192" y="191" fill="#3b82f6" text-anchor="middle">5 Agents</text>
+
+    <rect x="242" y="175" width="100" height="24" rx="4" fill="#0a1428" stroke="#10b981" stroke-width="1"/>
+    <text x="292" y="191" fill="#10b981" text-anchor="middle">PDF Reports</text>
+  </g>
+
+  <!-- Right column: Feature list -->
+  <g font-family="monospace, 'Courier New'" font-size="12">
+    <text x="470" y="55" fill="#d4af37">▸</text><text x="490" y="55" fill="#cbd5e1">Job Description Optimization</text>
+    <text x="470" y="80" fill="#d4af37">▸</text><text x="490" y="80" fill="#cbd5e1">Resume Screening</text>
+    <text x="470" y="105" fill="#d4af37">▸</text><text x="490" y="105" fill="#cbd5e1">Interview Frameworks</text>
+    <text x="470" y="130" fill="#d4af37">▸</text><text x="490" y="130" fill="#cbd5e1">Salary Benchmarking</text>
+    <text x="470" y="155" fill="#d4af37">▸</text><text x="490" y="155" fill="#cbd5e1">Employer Brand Audit</text>
+    <text x="470" y="180" fill="#d4af37">▸</text><text x="490" y="180" fill="#cbd5e1">Offer Letters &amp; Onboarding</text>
+  </g>
+
+  <!-- Vertical divider between columns -->
+  <line x1="440" y1="40" x2="440" y2="200" stroke="#1e293b" stroke-width="1"/>
+
+  <!-- Commands section -->
+  <rect x="0" y="215" width="900" height="1" fill="#1e293b" opacity="0.6"/>
+
+  <g font-family="monospace, 'Courier New'" font-size="12">
+    <text x="62" y="245">
+      <tspan fill="#10b981">/recruit analyze</tspan><tspan fill="#475569"> full role analysis</tspan>
+    </text>
+    <text x="340" y="245">
+      <tspan fill="#10b981">/recruit screen</tspan><tspan fill="#475569"> resume ranking</tspan>
+    </text>
+    <text x="590" y="245">
+      <tspan fill="#10b981">/recruit interview</tspan><tspan fill="#475569"> questions</tspan>
+    </text>
+    <text x="62" y="270">
+      <tspan fill="#10b981">/recruit salary</tspan><tspan fill="#475569"> benchmarking</tspan>
+    </text>
+    <text x="340" y="270">
+      <tspan fill="#10b981">/recruit offer</tspan><tspan fill="#475569"> letter generator</tspan>
+    </text>
+    <text x="590" y="270">
+      <tspan fill="#10b981">/recruit report-pdf</tspan><tspan fill="#475569"> PDF</tspan>
+    </text>
+  </g>
+
+  <!-- Bottom bar with role types -->
+  <rect x="0" y="290" width="900" height="30" fill="#0a1428"/>
+  <g font-family="monospace, 'Courier New'" font-size="10" fill="#64748b">
+    <text x="62" y="309">Technical · Sales · Executive · Creative · Operations · Customer Service · Healthcare · Legal · Finance · Marketing</text>
+  </g>
+</svg>
